@@ -38,7 +38,7 @@
     text-align: center ;
 }
 
-.profile-table tr:first-child td{   
+.profile-table:not(.additional) tr:first-child td{   
     font-weight: bold;
     background-color: black;
     color: white;

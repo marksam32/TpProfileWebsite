@@ -31,8 +31,6 @@ HTTP.send();
 
 function setTable(tableParams) {
     let parsedTable = JSON.parse(tableParams).table.rows.map(x => ({"profile": x.c[0].v, "module": x.c[1].v}));
-    console.log(parsedTable)
-
     let table = TABLE;
 
     parsedTable.forEach(element => {
