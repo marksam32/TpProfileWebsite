@@ -5,6 +5,7 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     text-align: center;
+    color: white;
 }
 
 .title-container {
@@ -38,6 +39,13 @@
     text-align: center ;
 }
 
+.profile-table tr td{   
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: 1px solid black;
+}
+
 .profile-table:not(.additional) tr:first-child td{   
     font-weight: bold;
     background-color: black;
@@ -51,9 +59,25 @@ p {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 1rem;
+    color: white;
 }
 
 table, td {
     border: 1px solid black;
     border-collapse: collapse;
-}   
+}
+
+body {
+    background-image: url(img/bg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    color: rgb(0, 102, 255);
+}
+
+.about-container {
+    background-color: rgba(0, 0, 0, 0.801);
+}
